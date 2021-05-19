@@ -1,22 +1,17 @@
-var FfmpegCommand = require('fluent-ffmpeg');
 const path = require('path');
-var watchPath = 'c:/node/ffmpeg/input/';
-var outputPath = 'c:/node/ffmpeg/output/';
-var file = 'BigBuckBunny_2000hevc.mp4';
-
 const chokidar = require('chokidar');
+var FfmpegCommand = require('fluent-ffmpeg');
+
+var watchPath = './input/';
+var outputPath = './output/';
 
 // Initialize watcher.
 const watcher = chokidar.watch(watchPath, {
   persistent: true
 });
-// Something to use when events are received.
-const log = console.log.bind(console);
 
 watcher
   .on('add', path => ConvertFile(path,outputPath));
-
-//ConvertFile(watchPath,outputPath,file);
 
 function ConvertFile(file, outputPath){
   //Display something on screen
