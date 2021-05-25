@@ -149,4 +149,4 @@ Project Link: [https://github.com/dgahagan/ffmpeg-watchfolder](https://github.co
 [license-shield]: https://img.shields.io/github/license/dgahagan/ffmpeg-watchfolder.svg?style=for-the-badge
 [license-url]: https://github.com/dgahagan/ffmpeg-watchfolder/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/dgahagan
+[linkedin-url]: https://linkedin.com/in/dangahagan
